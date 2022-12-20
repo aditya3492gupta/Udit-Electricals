@@ -17,12 +17,16 @@
     height: 50vw;
 }
 
+h3 {
+    text-align: center;
+}
+
 .product {
     width: 100%;
     height: 50vw;
-    justify-content: center;
-    align-items: center;
     position: static;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .product h3 {
@@ -30,11 +34,18 @@
     /* position: fixed; */
 }
 
+.carding {
+    display: inline-block;
+    /* justify-content: center; */
+
+}
+
 .card {
+    display: inline-block;
     position: relative;
     width: 50vh;
     height: 50vh;
-    display: inline-flex;
+
     margin: 0 35px;
     border: 1px solid black;
     border-radius: 5px;
@@ -45,7 +56,7 @@
     flex-wrap: wrap;
     flex: 1;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: black;
 }
 
@@ -98,38 +109,51 @@
 
 
 
+
+
+.cnt {
+    position: relative;
+}
+
 .address {
     position: absolute;
     background-color: black;
     width: 100%;
     height: auto;
-    /* top: 80px; */
-    bottom: -20px;
-    /* padding-bottom: 100%; */
+
+    margin-bottom: 10px;
+    padding-bottom: 0;
     bottom: 0;
 }
 
-.frame {
+.list {
+    color: aliceblue;
+}
+
+iframe {
     background-color: black;
     /* position: absolute; */
     float: right;
-    /* padding-bottom: 10px; */
+    padding-bottom: 10px;
 }
 
 .foot {
-    max-width: min-content;
+    position: fixed;
+    /* position: static; */
+    left: 0;
+    /* max-width: min-content; */
     color: white;
     background-color: rgb(0, 0, 0);
-    position: absolute;
-    display: inline-flex;
+    /* position: fixed; */
+    display: flex;
     width: 100%;
     bottom: 0;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
     height: 20px;
     padding: 20px 20px;
-    /* text-align: center; */
+    text-align: center;
     justify-content: center;
 
 }
