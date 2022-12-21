@@ -35,18 +35,13 @@ h3 {
     /* position: fixed; */
 }
 
-.carding {
-    display: inline-block;
-    /* justify-content: center; */
 
-}
 
 .card {
     display: inline-block;
     position: relative;
     width: 50vh;
     height: 50vh;
-
     margin: 0 35px;
     border: 1px solid black;
     border-radius: 5px;
