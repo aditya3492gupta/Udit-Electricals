@@ -110,21 +110,21 @@ h3 {
 .cnt {
     position: relative;
     /* display: inline-block; */
-    display: grid;
+    /* display: grid;            */
     height: auto;
 
 }
 
 .address {
-    position: absolute;
+    position: relative;
     background-color: black;
     width: 100%;
     height: auto;
-
-    margin-bottom: 10px;
-    display: grid;
-    padding-bottom: 0;
-    bottom: 0;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    display: flex;
+    /* padding-bottom: 0; */
+    /* bottom: 0; */
     grid-template-columns: auto auto auto auto;
     gap: 10px;
 }
@@ -178,7 +178,8 @@ iframe {
     margin-right: auto;
     font-size: 30px;
     height: 20px;
-    padding: 20px 20px;
+    /* padding: 0 20px; */
+    padding-bottom: 20px;
     text-align: center;
     justify-content: center;
 
